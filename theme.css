@@ -1,0 +1,42 @@
+
+ /* all colour panel start */
+ :root { 
+    --pg: #555555;
+    --brand1: #5bc5f4;
+    --brand2: #0872b9;
+    --white: #ffffff;
+    --black:#353535;
+    --tr:all linear 0.3s;
+  }
+ /* all colour panel  end */
+
+ 
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../Font/Open_Sans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url('./Font/Oswald/static/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('./Font/Oswald/static/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url('./Font/Oswald/static/Oswald-Medium.ttf');
+}
+@font-face {
+    font-family: 'MYRIADPRO-REGULAR';
+    src: url('./Font/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff');
+}
+
+p{
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--pg);
+    font-weight: 400;
+    font-family: "OpenSans-Regular";
+}
